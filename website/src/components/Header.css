@@ -1,0 +1,20 @@
+.header {
+  height: 500px;
+  background: #0078e8;
+  line-height: 100px;
+  text-align: center;
+  display: flex;
+}
+
+.header .title {
+  text-align: center;
+  color: white;
+  margin: auto;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 88px;
+
+  color: #ffffff;
+}

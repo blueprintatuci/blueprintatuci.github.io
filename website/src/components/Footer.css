@@ -1,0 +1,21 @@
+.footer {
+    height: 400px;
+    background: #2D3E50;
+    line-height: 100px;
+    text-align: center;
+    display: flex;
+  }
+  
+  .footer .title {
+    text-align: center;
+    /*color: white;*/
+    margin: auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 88px;
+  
+    color: #BBC1C8;
+  }
+  

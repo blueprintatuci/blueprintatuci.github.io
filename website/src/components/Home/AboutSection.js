@@ -1,6 +1,6 @@
 import React from "react";
-import "./About.css";
-import "../index.css";
+import "./AboutSection.css";
+import "../../base.css";
 //import { makeStyles } from "@material-ui/core/styles";
 
 export default function Header() {

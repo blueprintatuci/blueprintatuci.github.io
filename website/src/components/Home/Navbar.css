@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  position: absolute;
+  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar img {
+  width: 150px;
+  height: 100%;
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+}
+
+.links p {
+  margin: 20px;
+}

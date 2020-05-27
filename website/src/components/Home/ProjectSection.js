@@ -1,5 +1,5 @@
 import React from "react";
-import "./Project.css";
+import "./ProjectSection.css";
 import ProjectCard from "./ProjectCard";
 
 export default function Project() {

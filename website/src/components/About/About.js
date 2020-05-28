@@ -1,8 +1,19 @@
 import React from "react";
-import "./About.css";
+import AboutUsSection from "./AboutUsSection";
+import Navbar from "../Home/Navbar";
+import Footer from "../Home/Footer";
 import "../../base.css";
+
 //import { makeStyles } from "@material-ui/core/styles";
 
-export default function About() {
-  return <div className='about'>This is the About Page!</div>;
+function About() {
+  return (
+    <div className='About'>
+      <Navbar />
+      <AboutUsSection />
+      <Footer />
+    </div>
+  );
 }
+
+export default About;

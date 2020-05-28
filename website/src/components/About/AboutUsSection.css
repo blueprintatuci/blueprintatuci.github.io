@@ -1,0 +1,25 @@
+.about-us-section {
+  height: 400px;
+  background: #0078e8;
+  font-family: Roboto;
+  font-style: normal;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  overflow: hidden;
+}
+
+.about-us-section .title {
+  text-align: left;
+  color: white;
+  font-size: 50px;
+  line-height: 88px;
+  padding-top: 130px;
+  margin: 0px;
+}
+
+.about-us-section .info {
+  text-align: left;
+  color: rgb(231, 231, 231);
+  font-size: 20px;
+}

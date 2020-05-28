@@ -1,7 +1,17 @@
 import React from "react";
 import "../../base.css";
-//import { makeStyles } from "@material-ui/core/styles";
+import Header from "../Page/Header";
+import Navbar from "../Page/Navbar";
+import Footer from "../Page/Footer";
 
-export default function Project() {
-  return <div className='project'>This is the Project Page!</div>;
+function Project() {
+  return (
+    <div className='Project'>
+      <Navbar />
+      <Header />
+      <Footer />
+    </div>
+  );
 }
+
+export default Project;

@@ -68,7 +68,7 @@
 }
 
 .row {
-  padding-top: 75px;
+  padding-top: 60px;
 }
 
 .flex-column {
@@ -116,9 +116,12 @@ li {
 }
 
 .copyright {
-  position: absolute;
-  left: 275px;
-  top: 2200px;
+  padding-top: 75px;
+  padding-left: 275px;
+  display: flex;
+  flex-wrap: wrap;
+  /*left: 275px;
+  top: 2200px;*/
 }
 
 .inner-column {

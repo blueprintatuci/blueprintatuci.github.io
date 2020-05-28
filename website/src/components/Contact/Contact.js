@@ -1,12 +1,10 @@
 import React from "react";
-import "../../base.css";
 import Header from "../Page/Header";
 import Navbar from "../Page/Navbar";
 import Footer from "../Page/Footer";
-
-function Project() {
+function Contact() {
   return (
-    <div className='Project'>
+    <div className='Contact'>
       <Navbar />
       <Header />
       <Footer />
@@ -14,4 +12,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default Contact;

@@ -21,17 +21,17 @@ export default function Footer() {
             <div class='headings'>General</div>
             <ul>
               <li>
-                <a class='link' href='http://google.com'>
+                <a class='link' href='/'>
                   Home
                 </a>
               </li>
               <li>
-                <a class='link' href='http://google.com'>
+                <a class='link' href='/about'>
                   About
                 </a>
               </li>
               <li>
-                <a class='link' href='http://google.com'>
+                <a class='link' href='/project'>
                   Projects
                 </a>
               </li>
@@ -84,7 +84,7 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a class='link' href='http://instagram.com/'>
+                  <a class='link' href='http://instagram.com/uciblueprint'>
                     Instagram
                   </a>
                 </li>

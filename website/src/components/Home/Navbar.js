@@ -15,8 +15,11 @@ export default function Navbar() {
           <p>About</p>
         </Link>
         <Link style={{ textDecoration: 'none' }} to='/project'>
-          <p>Project</p>
+          <p>Projects</p>
         </Link >
+        <Link style={{ textDecoration: 'none' }} to='/'>
+        <p>Contact</p>
+        </Link>
         <Link style={{ textDecoration: 'none' }} to='/'>
         <p>Apply</p>
         </Link>

@@ -10,14 +10,14 @@
   width: 150px;
   height: 100%;
   position: relative;
-  left: 20px;
+  left: 50px;
   top: 20px;
 }
 
 .links {
   display: flex;
   flex-direction: row;
-  margin-left: 100px;
+  margin-left: 900px;
 }
 
 .links p {

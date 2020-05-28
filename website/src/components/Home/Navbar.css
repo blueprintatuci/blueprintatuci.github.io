@@ -22,4 +22,12 @@
 
 .links p {
   margin: 20px;
+  color: #fff;
+  font-family: Roboto,Helvetica,sans-serif;
+  font-weight: 550;
+}
+
+.links p:hover {
+  color: #BBC1C8;
+  transform: translateY(-0.25rem);
 }

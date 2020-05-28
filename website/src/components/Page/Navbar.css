@@ -6,12 +6,21 @@
   justify-content: space-between;
 }
 
-.navbar img {
-  width: 150px;
-  height: 100%;
+.homeLink img{
+  width: 35px;
+  height: 35px;
   position: relative;
   left: 50px;
-  top: 20px;
+  top: 10px;
+}
+
+.homeLink div{
+  display: inline-block;
+  margin-left: 52px;
+  color: #fff;
+  font-family: Roboto,Helvetica,sans-serif;
+  font-weight: 550;
+  font-size: larger;
 }
 
 .links {

@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "./Header";
+import Header from "../Page/Header";
 import AboutSection from "./AboutSection";
-import Navbar from "./Navbar";
+import Navbar from "../Page/Navbar";
 import Project from "./ProjectSection";
-import Footer from "./Footer";
+import Footer from "../Page/Footer";
 function Home() {
   return (
     <div className='Home'>

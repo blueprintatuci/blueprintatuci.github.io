@@ -17,7 +17,9 @@ export default function Navbar() {
         <Link to='/project'>
           <p>Project</p>
         </Link>
-        <p>Apply</p>
+        <Link to='/contact'>
+          <p>Contact Us</p>
+        </Link>
       </div>
     </div>
   );

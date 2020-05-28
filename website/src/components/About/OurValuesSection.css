@@ -1,0 +1,46 @@
+.our-values-section {
+    background: #f8f8f8;
+    font-family: Roboto;
+    font-style: normal;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+
+.our-values-section .title {
+    text-align: left;
+    color: #000000;
+    font-size: 50px;
+    line-height: 88px;
+    margin: 0px;
+}
+
+.value {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.value-info {
+    flex: 1 0 200px;
+    align-items: center;
+}
+
+img {
+    max-height: 100px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.value-name {
+    color: #0078e8;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.description {
+    color: darkgray;
+}

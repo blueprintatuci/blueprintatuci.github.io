@@ -145,3 +145,27 @@ li {
 .logo-column-margin-bot {
   margin-bottom: 1px;
 }
+
+.footer-logo img {
+  width: 35px;
+  height: 35px;
+  /*left: 40px;*/
+  top: 12px;
+  /*padding-left: 225px;*/
+  position: relative;
+  margin-right: 7px;
+}
+
+.footer-logo img:hover {
+  transform: translateY(-0.25rem);
+}
+
+
+.footer-logo div{
+  display: inline-block;
+  color: #fff;
+  font-family: Roboto,Helvetica,sans-serif;
+  font-weight: 550;
+  font-size: larger;
+  margin-left: 0px;
+}

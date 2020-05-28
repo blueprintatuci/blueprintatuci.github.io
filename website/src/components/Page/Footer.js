@@ -1,10 +1,11 @@
 import React from "react";
 import "./Footer.css";
-import blueprint_logo from "../../assets/blueprint_logo.png";
+import blueprint_logo from "../../assets/blueprint_logo_only.png";
 import facebook_logo from "../../assets/facebook.png";
 import instagram_logo from "../../assets/instagram.png";
 import github_logo from "../../assets/github.png";
 import linkedin_logo from "../../assets/linkedin.png";
+import { Link } from "react-router-dom";
 //import { makeStyles } from "@material-ui/core/styles";
 
 export default function Footer() {
@@ -13,9 +14,13 @@ export default function Footer() {
       <div class='container'>
         <div class='row'>
           <div class='column left'>
-            <a href='http://google.com'>
+          <div class='footer-logo'>
+            <Link style={{ textDecoration: 'none' }} to='/'>
+              
               <img src={blueprint_logo} alt='blueprint-logo' />
-            </a>
+              <div>blueprint</div>
+            </Link>
+            </div>
           </div>
           <div class='column middle'>
             <div class='headings'>General</div>

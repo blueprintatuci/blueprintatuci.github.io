@@ -1,13 +1,13 @@
 import React from "react";
 import './OurValuesSection.css'
-import blueprint_logo from "../../assets/ThetaTau.png";
+import theta_tau from "../../assets/ThetaTau.png";
 
 export default function OurMissionSection() {
   return (
     <div className='our-values-section'>
         <h1 className='title'>Our Values</h1>
         <div className='value'>
-            <img src={blueprint_logo} alt='blueprint-logo' />
+            <img src={theta_tau} alt='theta_tau' />
             <div className='value-info'>
                 <h2 className='value-name'>Community</h2>
                 <p className='description'>
@@ -18,7 +18,7 @@ export default function OurMissionSection() {
             </div>
         </div>
         <div className='value'>
-            <img src={blueprint_logo} alt='blueprint-logo' />
+            <img src={theta_tau} alt='theta_tau' />
             <div className='value-info'>
                 <h2 className='value-name'>Growth</h2>
                 <p className='description'>
@@ -29,7 +29,7 @@ export default function OurMissionSection() {
             </div>
         </div>
         <div className='value'>
-            <img src={blueprint_logo} alt='blueprint-logo' />
+            <img src={theta_tau} alt='theta_tau' />
             <div className='value-info'>
                 <h2 className='value-name'>Growth</h2>
                 <p className='description'>

@@ -11,14 +11,17 @@ export default function Navbar() {
     <div className='navbar'>
       <img src={blueprint_logo} alt='blueprint-logo' />
       <div className='links'>
-        <Link to='/about'>
+        <Link style={{ textDecoration: 'none' }} to='/about'>
           <p>About</p>
         </Link>
-        <Link to='/project'>
-          <p>Project</p>
+        <Link style={{ textDecoration: 'none' }} to='/project'>
+          <p>Projects</p>
+        </Link >
+        <Link style={{ textDecoration: 'none' }} to='/'>
+        <p>Contact</p>
         </Link>
-        <Link to='/contact'>
-          <p>Contact Us</p>
+        <Link style={{ textDecoration: 'none' }} to='/contact'>
+        <p>Apply</p>
         </Link>
       </div>
     </div>

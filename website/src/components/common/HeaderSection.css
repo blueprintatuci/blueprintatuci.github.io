@@ -1,4 +1,4 @@
-.about-us-section {
+.header-section {
   height: 400px;
   background: #0078e8;
   font-family: Roboto;
@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 
-.about-us-section .title {
+.header-section .title {
   text-align: left;
   color: #ffffff;
   font-size: 50px;
@@ -18,7 +18,7 @@
   margin: 0px;
 }
 
-.about-us-section .info {
+.header-section .info {
   text-align: left;
   color: #ffffff;
   font-size: 20px;

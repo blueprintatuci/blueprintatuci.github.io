@@ -19,7 +19,7 @@ export default function Navbar() {
         <Link style={{ textDecoration: 'none' }} to='/about'>
           <p>About</p>
         </Link>
-        <Link style={{ textDecoration: 'none' }} to='/project'>
+        <Link style={{ textDecoration: 'none' }} to='/projects'>
           <p>Projects</p>
         </Link >
         <Link style={{ textDecoration: 'none' }} to='/contact'>

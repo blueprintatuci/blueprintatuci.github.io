@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectSection.css";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../common/ProjectCard";
 
 export default function Project() {
   return (

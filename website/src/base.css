@@ -13,3 +13,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.body-section {
+    background: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    overflow: hidden;
+}

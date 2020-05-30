@@ -1,0 +1,14 @@
+.body-section h1 {
+    text-align: left;
+    color: #000000;
+    font-size: 50px;
+    line-height: 88px;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.projects {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

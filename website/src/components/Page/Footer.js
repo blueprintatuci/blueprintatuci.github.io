@@ -36,12 +36,12 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a class='link' href='/project'>
+                <a class='link' href='/projects'>
                   Projects
                 </a>
               </li>
               <li>
-                <a class='link' href='http://google.com'>
+                <a class='link' href='/contact'>
                   Contact
                 </a>
               </li>
@@ -60,7 +60,7 @@ export default function Footer() {
                 </li>
                 <li class='logo-column-margin-bot'>
                   <div class='logo'>
-                    <a href='http://instagram.com'>
+                    <a href='http://instagram.com/uciblueprint'>
                       <img src={instagram_logo} alt='instagram-logo' />
                     </a>
                   </div>
@@ -74,7 +74,7 @@ export default function Footer() {
                 </li>
                 <li class='logo-column-margin-bot'>
                   <div class='logo'>
-                    <a href='http://facebook.com/uciblueprint'>
+                    <a href='http://linkedin.com/company/uciblueprint/'>
                       <img src={linkedin_logo} alt='linkedin-logo' />
                     </a>
                   </div>
@@ -99,7 +99,7 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a class='link' href='http://google.com'>
+                  <a class='link' href='http://linkedin.com/company/uciblueprint/'>
                     LinkedIn
                   </a>
                 </li>

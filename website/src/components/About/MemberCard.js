@@ -10,29 +10,33 @@ import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles(theme => ({
   root: {
     display: 'block',
-    width: '15vw',
+    width: '12vw',
     transitionDuration: '0.3s',
-    height: '15vw',
-    margin: '1vw'
+    height: '26vw',
+    margin: '1vw',
+
   },
   media: {
     height: 0,
-    paddingTop: "56.25%" // 16:9
+    paddingTop: "160%" // 16:9
   },
 }));
 
-export default function RecipeReviewCard() {
+export default function MemberCard(props) {
   const classes = useStyles();
   return (
     <Card className={classes.root}>
       <CardMedia
         className={classes.media}
-        image={theta_tau}
-        title="theta tau"
+        image={props.image}
+        title="team member photo"
       />
       <CardContent>
+        <Typography variant="body1" color="textSecondary" component="p">
+          {props.name}
+        </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
-          Member
+          {props.role}
         </Typography>
       </CardContent>
     </Card>

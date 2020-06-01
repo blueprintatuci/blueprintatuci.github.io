@@ -19,6 +19,7 @@
 
 .members {
     display: flex;
+    text-align: center;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;

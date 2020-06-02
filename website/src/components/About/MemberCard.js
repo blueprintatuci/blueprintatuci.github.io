@@ -11,15 +11,21 @@ const useStyles = makeStyles(theme => ({
   root: {
     display: 'block',
     width: '12vw',
+    height: '22vw',
     transitionDuration: '0.3s',
-    height: '27vw',
-    margin: '1vw',
-
+    margin: '.4vw',
+    textAlign: 'center'
   },
+
   media: {
     height: 0,
-    paddingTop: "160%" // 16:9
+    paddingTop: "140%" // 16:9
   },
+
+  card: {
+    padding: '.5vw'
+  },
+
 }));
 
 export default function MemberCard(props) {
@@ -31,11 +37,11 @@ export default function MemberCard(props) {
         image={props.image}
         title="team member photo"
       />
-      <CardContent>
-        <Typography variant="body1" color="textSecondary" component="p">
+      <CardContent className={classes.card}>
+        <Typography variant="body2" color="textSecondary">
           {props.name}
         </Typography>
-        <Typography variant="body2" color="textSecondary" component="p">
+        <Typography variant="caption" color="textSecondary">
           {props.role}
         </Typography>
         <div class='logo'>

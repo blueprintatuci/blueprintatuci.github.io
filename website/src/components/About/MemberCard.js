@@ -1,18 +1,18 @@
 import React from 'react';
-import theta_tau from "../../assets/ThetaTau.png";
 
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardMedia from "@material-ui/core/CardMedia";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
+import linkedin_logo from "../../assets/linkedin.png";
 
 const useStyles = makeStyles(theme => ({
   root: {
     display: 'block',
     width: '12vw',
     transitionDuration: '0.3s',
-    height: '26vw',
+    height: '27vw',
     margin: '1vw',
 
   },
@@ -38,6 +38,11 @@ export default function MemberCard(props) {
         <Typography variant="body2" color="textSecondary" component="p">
           {props.role}
         </Typography>
+        <div class='logo'>
+          <a href={props.linkedin}>
+            <img src={linkedin_logo} alt='linkedin-logo' />
+          </a>
+        </div>
       </CardContent>
     </Card>
   );

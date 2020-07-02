@@ -17,7 +17,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function ProjectCard() {
+export default function ProjectCard(props) {
   const classes = useStyles();
   return (
     <Card className={classes.root}>
@@ -26,27 +26,25 @@ export default function ProjectCard() {
           component='img'
           alt='Contemplative Reptile'
           height='200'
-          image={theta_tau}
+          image={props.pic}
           title='Theta Tau'
         />
         <CardContent>
           <Typography gutterBottom variant='h5' component='h2'>
-            Theta Tau
+            {props.title}
           </Typography>
           <Typography variant='body2' color='textSecondary' component='p'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+            {props.description}
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size='small' color='primary'>
-          Share
+        <Button size='small' color='primary' href={props.github_url}>
+          See it on Github
         </Button>
-        <Button size='small' color='primary'>
+        {/* <Button size='small' color='primary'>
           Learn More
-        </Button>
+        </Button> */}
       </CardActions>
     </Card>
   );

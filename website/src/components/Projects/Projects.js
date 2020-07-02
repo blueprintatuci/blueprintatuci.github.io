@@ -23,17 +23,18 @@ function Projects() {
         <Button variant='contained' disableElevation href="https://github.com/uciblueprint">
           See our GitHub
         </Button>
-        <h1>Current Projects</h1>
+        {/* Uncomment below when we have projects we are working on */}
+        {/* <h1>Current Projects</h1>
         <div className='projects'>
           <ProjectCard />
           <ProjectCard />
           <ProjectCard />
-        </div>
+        </div> */}
         <h1>Completed Projects</h1>
         <div className='projects'>
           <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
+          {/* <ProjectCard />
+          <ProjectCard /> */}
         </div>
       </div>
       <Footer />

@@ -8,14 +8,16 @@ export default function Header() {
     <div className='about'>
       <h1 className='title'> About</h1>
       <p className='main-text'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut.
+        Blueprint strives to make technology accessible and useful for those who assist communities and promote public welfare. 
       </p>
       <p className='extra-text'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut.
+        <p>
+          At Blueprint, we are dedicared and driven to develop pro bono apps for nonprofits and promotes tech for social good, free of charge. 
+        </p>
+        <p>
+          Blueprint is a national organization founded in 2012 at the UC Berkeley. UC Irvine is the fourth established chapter, founded in 2019 after University of Waterloo and UCLA.
+        </p>
+
       </p>
       <p>Read More...</p>
     </div>

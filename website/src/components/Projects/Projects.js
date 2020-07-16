@@ -18,9 +18,7 @@ function Projects() {
       <Navbar />
       <HeaderSection 
         title = "Projects"
-        info = "Hearties long boat crow's nest parrel Pirate Round line yardarm loot coffer 
-        stern. Lass plunder furl pillage knave matey jack reef interloper belay. Gangplank 
-        dead men tell no tales hulk swab Privateer coffer sheet prow cackle fruit rope's end."
+        info = "All of Blueprint’s work is open source because we believe in building technology that makes us more open and connected."
       />
       <div className='body-section'>
         <Button variant='contained' disableElevation href="https://github.com/uciblueprint">

@@ -7,14 +7,7 @@ export default function Project() {
     <div className='project-section'>
       <h1 className='title'> Our Projects</h1>
       <p className='main-text'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut.
-      </p>
-      <p className='extra-text'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut.
+      Each quarter, our team works closely with a non-profit organization to develop software that will help them better serve their communities. 
       </p>
       <p>Check out our current projects!</p>
       <div className='projects'>

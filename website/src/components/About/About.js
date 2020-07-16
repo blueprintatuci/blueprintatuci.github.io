@@ -13,10 +13,7 @@ function About() {
       <Navbar />
       <HeaderSection 
         title = 'About Us'
-        info = "I'm baby dolore meggings readymade put a bird on it kinfolk crucifix jianbing. 
-        Tumblr jean shorts viral actually flannel. Copper mug ennui sed vegan brooklyn banjo 
-        direct trade consectetur cray. Chambray laborum brunch, williamsburg vice affogato selvage. 
-        Direct trade in four dollar toast, authentic skateboard 8-bit shoreditch."
+        info = "We are a group of passionate students at Univerity of California Irvine that develop technology for social good"
       />
       <OurMissionSection />
       <OurValuesSection />

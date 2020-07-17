@@ -1,10 +1,10 @@
 import React from "react";
 import "./Footer.css";
 import blueprint_logo from "../../assets/blueprint_logo_only.png";
-import facebook_logo from "../../assets/facebook.png";
-import instagram_logo from "../../assets/instagram.png";
-import github_logo from "../../assets/github.png";
-import linkedin_logo from "../../assets/linkedin.png";
+import facebook_logo from "../../assets/facebook.svg";
+import instagram_logo from "../../assets/instagram.svg";
+import github_logo from "../../assets/github.svg";
+import linkedin_logo from "../../assets/linkedin.svg";
 import { Link } from "react-router-dom";
 //import { makeStyles } from "@material-ui/core/styles";
 

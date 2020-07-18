@@ -35,6 +35,10 @@ img {
     margin-right: 20px;
 }
 
+img.icon {
+    height: 300px;
+}
+
 .value-name {
     color: #0078e8;
     font-size: 35px;
@@ -43,4 +47,5 @@ img {
 
 .description {
     color: darkgray;
+    font-size: 18px;
 }

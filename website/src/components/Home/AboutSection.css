@@ -1,21 +1,19 @@
 .about {
-  height: 350px;
+  height: 75%;
   background: #f8f8f8;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .title {
   font-family: Roboto;
   font-style: normal;
-  font-size: 25px;
   font-weight: bold;
   font-size: 50px;
   line-height: 59px;
-  margin: 30px;
-  margin-left: 20px;
-  /* identical to box height */
+
 
   /* text color */
 
@@ -27,4 +25,13 @@
   font-style: normal;
   font-weight: bold;
   color: #828282;
+  font-size: 30px;
+}
+
+.extra-text{
+  font-size: 25px;
+}
+
+.about-link {
+  color: #0078E8;
 }

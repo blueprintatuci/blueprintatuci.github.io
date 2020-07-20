@@ -8,7 +8,9 @@ export default function OurMissionSection() {
     <div className='our-mission-section'>
       <h1 className='title'>Our Mission</h1>
       <p className='mission-statement'>
-      To make beautiful engineering accessible and useful for those who create communities and promote public welfare.
+      The mission of Blueprint is to make technology accessible and useful for
+      organizations dedicated to promoting social impact in addition to giving students at
+      UCI professional experience along the way.
       </p>
     </div>
   );

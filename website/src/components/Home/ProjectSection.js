@@ -1,6 +1,13 @@
 import React from "react";
 import "./ProjectSection.css";
 import ProjectCard from "../common/ProjectCard";
+import Grid from "@material-ui/core/Grid";
+import { sizing } from '@material-ui/system';
+
+// Assets
+import ethic_logo from "../../assets/ethic_logo.png"
+
+
 
 export default function Project() {
   return (
@@ -18,10 +25,14 @@ export default function Project() {
       </p>
       <p>Check out our current projects!</p>
       <div className='projects'>
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        <ProjectCard
+            pic = {ethic_logo} />
+            <ProjectCard
+            pic = {ethic_logo} />
+            <ProjectCard
+            pic = {ethic_logo} />
       </div>
+
     </div>
   );
 }

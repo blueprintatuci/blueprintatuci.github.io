@@ -23,9 +23,6 @@ function Projects() {
         dead men tell no tales hulk swab Privateer coffer sheet prow cackle fruit rope's end."
       />
       <div className='body-section'>
-        <Button variant='contained' disableElevation href="https://github.com/uciblueprint">
-          See our GitHub
-        </Button>
         {/* Uncomment below when we have projects we are working on */}
         {/* <h1>Current Projects</h1>
         <div className='projects'>
@@ -34,13 +31,28 @@ function Projects() {
           <ProjectCard />
         </div> */}
         <h1>Completed Projects</h1>
+        <div>
+          <Button variant='contained' disableElevation href="https://github.com/uciblueprint">
+            See our GitHub
+          </Button>
+        </div>
         <div className='projects'>
           <ProjectCard 
             pic = {ethic_logo}
             title = "Ethic"
-            description = "Ethic provides resources to make it easier to live and shop sustainably.
-            We built them a web crawler that provided a central location for Ethic to easily view
-            and promote sustainability resources."
+            description = "Ethic provides resources to make it easier to live and shop sustainably. We built them a web crawler that provided a central location for Ethic to easily view and promote sustainability resources."
+            github_url = "https://github.com/uciblueprint/Ethics-Project-Frontend"
+          />
+          <ProjectCard 
+            pic = {ethic_logo}
+            title = "Ethic"
+            description = "Ethic provides resources to make it easier to live and shop sustainably. We built them a web crawler that provided a central location for Ethic to easily view and promote sustainability resources."
+            github_url = "https://github.com/uciblueprint/Ethics-Project-Frontend"
+          />
+          <ProjectCard 
+            pic = {ethic_logo}
+            title = "Ethic"
+            description = "Ethic provides resources to make it easier to live and shop sustainably. We built them a web crawler that provided a central location for Ethic to easily view and promote sustainability resources."
             github_url = "https://github.com/uciblueprint/Ethics-Project-Frontend"
           />
           {/* <ProjectCard />

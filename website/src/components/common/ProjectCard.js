@@ -13,8 +13,10 @@ import theta_tau from "../../assets/ThetaTau.png";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    width: 250,
+    height: 360,
     margin: "auto",
+    marginBottom: 20,
     transition: "0.3s",
     boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",
     "&:hover": {

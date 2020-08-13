@@ -8,9 +8,7 @@ import Navbar from "../Page/Navbar";
 import Footer from "../Page/Footer";
 import ProjectCard from "../common/ProjectCard";
 import "../Home/ProjectSection.css";
-import Grid from "@material-ui/core/Grid";
-import { sizing } from '@material-ui/system';
-import { spacing } from '@material-ui/system';
+
 // Assets
 import ethic_logo from "../../assets/ethic_logo.png";
 

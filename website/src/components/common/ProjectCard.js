@@ -14,6 +14,7 @@ import theta_tau from "../../assets/ThetaTau.png";
 const useStyles = makeStyles({
   root: {
     width: 250,
+    height: 360,
     margin: "auto",
     marginBottom: 20,
     transition: "0.3s",

@@ -3,7 +3,6 @@ import "../../base.css";
 import "./Projects.css";
 import HeaderSection from "../common/HeaderSection";
 import Button from '@material-ui/core/Button';
-import { makeStyles } from '@material-ui/core/styles';
 import Navbar from "../Page/Navbar";
 import Footer from "../Page/Footer";
 import ProjectCard from "../common/ProjectCard";

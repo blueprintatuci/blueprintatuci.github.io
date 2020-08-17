@@ -1,5 +1,5 @@
 import React from "react";
-import './OurMissionSection.css'
+import './About.css'
 
 //import { makeStyles } from "@material-ui/core/styles";
 

@@ -1,11 +1,3 @@
-.navbar {
-  display: flex;
-  position: absolute;
-  color: white;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .homeLink img {
   width: 35px;
   height: 35px;
@@ -21,19 +13,24 @@
   transform: rotate(360deg);
 }
 
-.homeLink div {
-  display: inline-block;
+.home {
+  display: flex;
+}
+.homeLink h1 {
   margin-left: 1.75rem;
   color: #fff;
   font-family: Roboto, Helvetica, sans-serif;
   font-weight: 550;
   font-size: larger;
+  margin-top: 15px;
+}
+.navbar-nav .nav-link {
+  line-height: 0px;
 }
 
 .links {
-  display: flex;
-  flex-direction: row;
-  margin-left: 1100px;
+  line-height: 0px;
+  padding: 0px;
 }
 
 .links p {
@@ -46,4 +43,33 @@
 .links p:hover {
   color: #bbc1c8;
   transform: translateY(-0.25rem);
+}
+
+.navbar {
+  z-index: 100;
+  top: 0px;
+  padding: 0px;
+  position: relative;
+  background-color: #0078e8 !important;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-link {
+  color: white !important;
+  font-family: CeraBold;
+  font-size: 15px;
+  letter-spacing: 0em;
+  margin-right: 20px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.navbar-collapse {
+  flex-grow: unset !important;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+  }
 }

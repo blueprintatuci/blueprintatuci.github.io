@@ -17,11 +17,6 @@ const useStyles = makeStyles(theme => ({
     textAlign: 'center'
   },
 
-  media: {
-    height: 0,
-    paddingTop: "140%" // 16:9
-  },
-
   card: {
     padding: '.5vw'
   },
@@ -46,7 +41,7 @@ export default function MemberCard(props) {
         </Typography>
         <div class='logo'>
           <a href={props.linkedin}>
-            <img src={linkedin_logo} alt='linkedin-logo' />
+            <img style={{height: "20px", margin: "0"}} src={linkedin_logo} alt='linkedin-logo' />
           </a>
         </div>
       </CardContent>

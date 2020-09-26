@@ -1,5 +1,5 @@
 import React from "react";
-import './OurValuesSection.css'
+import './About.css'
 import team from "../../assets/team.svg";
 import growth from "../../assets/growth.svg";
 import hand from "../../assets/agriculture.svg";

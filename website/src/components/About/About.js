@@ -6,6 +6,7 @@ import OurTeamSection from "./OurTeamSection"
 import Navbar from "../Page/Navbar";
 import Footer from "../Page/Footer";
 import "../../base.css";
+import './About.css'
 
 function About() {
   return (

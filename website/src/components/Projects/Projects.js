@@ -3,7 +3,6 @@ import "../../base.css";
 import "./Projects.css";
 import HeaderSection from "../common/HeaderSection";
 import Button from "@material-ui/core/Button";
-import { makeStyles } from "@material-ui/core/styles";
 import BlueprintNavbar from "../Page/Navbar";
 import Footer from "../Page/Footer";
 import ProjectCard from "../common/ProjectCard";
@@ -21,13 +20,6 @@ function Projects() {
         info = "All of Blueprint’s work is open source because we believe in building technology that makes us more open and connected."
       />
       <div className='body-section'>
-        <Button
-          variant='contained'
-          disableElevation
-          href='https://github.com/uciblueprint'
-        >
-          See our GitHub
-        </Button>
         {/* Uncomment below when we have projects we are working on */}
         {/* <h1>Current Projects</h1>
         <div className='projects'>

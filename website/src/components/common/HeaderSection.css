@@ -24,7 +24,7 @@
 
 @media only screen and (max-width: 1000px) {
   .header-section {
-    height: 400px;
+    height: 100%;
     padding: 0 50px 30px 50px  
   }
 }

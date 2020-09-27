@@ -1,7 +1,4 @@
 import React from "react";
-import HeaderSection from "../common/HeaderSection";
-import Navbar from "../Page/Navbar";
-import Footer from "../Page/Footer";
 import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
 import "./ContactForm.css";

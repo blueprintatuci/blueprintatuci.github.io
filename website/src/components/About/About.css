@@ -1,5 +1,5 @@
 .our-mission-section {
-    height: 300px;
+    height: 100%;
     background: #ffffff;
     font-family: Roboto;
     font-style: normal;
@@ -94,7 +94,7 @@ img.icon {
     justify-content: space-evenly;
 }
 
-.MuiCardMedia-root {
+.member-photo {
     height: 0;
     padding-top: 140%;
     min-width: 50px;
@@ -111,26 +111,27 @@ img.icon {
 }
 
 @media only screen and (max-width: 600px) {
-    .MuiCardMedia-root {
+    .member-photo {
         height: 0;
         padding-top: 90%;
     }
 }
 
 @media only screen and (max-width: 900px) {
-    .MuiCardMedia-root {
+    .member-photo {
         height: 0;
         padding-top: 100%;
     }
 }
 
 @media only screen and (max-width: 1000px) {
-    .MuiCardMedia-root {
+    .member-photo {
         height: 0;
         padding-top: 120%;
     }
 
     .our-team-section {
+        height: 100%;
         padding-right: 50px;
         padding-left: 50px;
     }
@@ -140,17 +141,18 @@ img.icon {
     }
 
     .our-mission-section {
-        height: 200px;
+        height: 100%;
         padding: 60px 50px 60px 50px;
     }
 
     .our-values-section {
+        height: 100%;
         padding: 60px 50px 60px 50px;
     }
 }
 
 @media only screen and (max-width: 1200px) {
-    .MuiCardMedia-root {
+    .member-photo {
         height: 0;
         padding-top: 125%;
     }

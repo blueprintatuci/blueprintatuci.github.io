@@ -6,9 +6,15 @@
     margin: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
+    position: relative;
+    transition: 200ms;
 }
 
 .projects {
+  	display: flex;
+  	flex-direction: row;
+  	flex-wrap: wrap;
+  	justify-content: space-evenly;
+  	padding: 0 50px 25px;
     margin-top: 50px;
-    margin-bottom: 50px;
 }

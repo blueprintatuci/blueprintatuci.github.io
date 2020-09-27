@@ -1,5 +1,5 @@
 import React from "react";
-import './OurTeamSection.css'
+import './About.css'
 import MemberCard from "./MemberCard";
 
 import areeta from "../../assets/member_pictures/areeta.png";
@@ -38,20 +38,20 @@ export default function OurMissionSection() {
               linkedin="https://www.linkedin.com/in/xujeffreyc/"
             />
             <MemberCard 
-              name="Benjamin Huynh"
+              name="Ben Huynh"
               role="Treasurer"
               image={ben}
               linkedin="https://www.linkedin.com/in/benhuynh408/"
             />
             <MemberCard 
               name="Justin Huynh"
-              role="Public Communications"
+              role="Public Relations"
               image={justin}
               linkedin="https://www.linkedin.com/in/justinhuynh11/"
             />
             <MemberCard 
               name="Lynette Nguyen"
-              role="Public Communications"
+              role="Public Relations"
               image={lynette}
               linkedin="https://www.linkedin.com/in/lynettenguyen14/"
             />

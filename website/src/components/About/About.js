@@ -13,10 +13,9 @@ function About() {
       <Navbar />
       <HeaderSection 
         title = 'About Us'
-        info = "Blueprint at UCI is a community-service organization dedicated
-        to making a positive social impact for a variety of nonprofit organizations 
-        by innovating and building intuitive technology while giving the opportunity
-        to students to learn and utilize agile development."
+        info = "Blueprint at UCI is a community-service organization dedicated to making a positive social 
+        impact for a variety of nonprofit organizations by innovating and building intuitive technology 
+        while giving the opportunity to students to learn and utilize agile development."
       />
       <OurMissionSection />
       <OurValuesSection />

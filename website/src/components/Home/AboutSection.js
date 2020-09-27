@@ -12,10 +12,10 @@ export default function Header() {
     </p>
     <p className='extra-text'>
       <p>
-        At Blueprint, we are dedicared and driven to develop pro bono apps for nonprofits and promotes tech for social good, free of charge. 
+        At Blueprint, we are dedicated and driven to develop pro bono apps for nonprofits and promote tech for social good, free of charge. 
       </p>
       <p>
-        Blueprint is a national organization founded in 2012 at the UC Berkeley. UC Irvine is the fourth established chapter, founded in 2019 after University of Waterloo and UCLA.
+        Blueprint is a international organization founded in 2012 at UC Berkeley. 
       </p>
       </p>
       <a className="about-link" href="/about">Read More...</a>

@@ -9,7 +9,7 @@ export default function Project() {
     <p className='main-text'>
     Each quarter, our team works closely with a non-profit organization to develop software that will help them better serve their communities. 
     </p>
-    <a className="project-link" href="/projects">Check out our current projects!</a>
+    <a className="project-link">Check out our most recent projects!</a>
     <div className='projects'>
       <ProjectCard />
       <ProjectCard />

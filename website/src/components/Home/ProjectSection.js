@@ -8,19 +8,12 @@ import ethic_logo from "../../assets/ethic_logo.png"
 export default function Project() {
   return (
     <div className='project-section'>
-      <h1 className='title'> Our Projects</h1>
-      <p className='main-text'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut.
-      </p>
-      <p className='extra-text'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut.
-      </p>
-      <p>Check out our current projects!</p>
-      <div className='projects'>
+    <h1 className='title'> Our Projects</h1>
+    <p className='main-text'>
+    Each quarter, our team works closely with a non-profit organization to develop software that will help them better serve their communities. 
+    </p>
+    <a className="project-link">Check out our most recent projects!</a>
+    <div className='projects'>
         <ProjectCard 
           pic = {ethic_logo}
           title = "Ethic"
@@ -40,7 +33,6 @@ export default function Project() {
           github_url = "https://github.com/uciblueprint/Ethics-Project-Frontend"
         />
       </div>
-
     </div>
   );
 }

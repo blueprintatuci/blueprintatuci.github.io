@@ -9,7 +9,7 @@ function Contact() {
       <Navbar />
       <HeaderSection
         title='Contact Us'
-        info='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.'
+        info='Have any questions or comments? Interested in working with us? Let us know!'
       />
       <ContactForm />
 

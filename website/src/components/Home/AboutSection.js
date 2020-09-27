@@ -6,18 +6,19 @@ import "../../base.css";
 export default function Header() {
   return (
     <div className='about'>
-      <h1 className='title'> About</h1>
-      <p className='main-text'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut.
+    <h1 className='title'> About</h1>
+    <p className='main-text'>
+      Blueprint strives to make technology accessible and useful for those who assist communities and promote public welfare. 
+    </p>
+    <p className='extra-text'>
+      <p>
+        At Blueprint, we are dedicated and driven to develop pro bono apps for nonprofits and promote tech for social good, free of charge. 
       </p>
-      <p className='extra-text'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut.
+      <p>
+        Blueprint is a international organization founded in 2012 at UC Berkeley. 
       </p>
-      <p>Read More...</p>
-    </div>
+      </p>
+      <a className="about-link" href="/about">Read More...</a>
+  </div>
   );
 }

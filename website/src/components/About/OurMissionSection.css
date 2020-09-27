@@ -1,0 +1,24 @@
+.our-mission-section {
+    height: 300px;
+    background: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 60px;
+    overflow: hidden;
+  }
+  
+  .our-mission-section .title {
+    text-align: left;
+    color: #000000;
+    font-size: 50px;
+    line-height: 88px;
+    margin: 0px;
+  }
+  
+  .our-mission-section .mission-statement {
+    text-align: left;
+    color: #828282;
+    font-size: 30px;
+  }

@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="463" height="516" viewBox="0 0 463 516">
-  <g id="Group_5" data-name="Group 5" transform="translate(-1451 -337)">
-    <path id="Union_1" data-name="Union 1" d="M218.287,339.544A95.751,95.751,0,0,1,149.041,369C96.294,369,53.5,326.567,53.2,274.111A95.338,95.338,0,0,1,66.066,97.86c-.02-.8-.03-1.605-.03-2.413C66.036,42.733,108.948,0,161.881,0a95.741,95.741,0,0,1,67,27.2,95.965,95.965,0,0,1,160.5,61.1,95.366,95.366,0,0,1-6.045,182.386c.028.955.043,1.91.043,2.872,0,52.713-42.91,95.447-95.844,95.447A95.752,95.752,0,0,1,218.287,339.544Z" transform="translate(1460 337)" fill="#0078e8"/>
-    <ellipse id="Ellipse_9" data-name="Ellipse 9" cx="39.5" cy="40" rx="39.5" ry="40" transform="translate(1492 706)" fill="#0078e8"/>
-    <circle id="Ellipse_10" data-name="Ellipse 10" cx="26.5" cy="26.5" r="26.5" transform="translate(1451 800)" fill="#0078e8"/>
-    <g id="Group_2" data-name="Group 2" transform="translate(1571.791 388.354)">
+<svg xmlns="http://www.w3.org/2000/svg" width="502" height="516" viewBox="0 0 502 516">
+  <g id="Group_7" data-name="Group 7" transform="translate(-1339 -290)">
+    <path id="Union_1" data-name="Union 1" d="M237.038,339.544C218.092,357.7,191.408,369,161.844,369,104.566,369,58.1,326.567,57.767,274.111,23.525,258.484,0,226.067,0,188.61c0-42.36,30.094-78.276,71.742-90.75-.022-.8-.033-1.605-.033-2.413C71.709,42.733,118.307,0,175.787,0c28.316,0,53.992,10.371,72.756,27.2C267.1,11.449,291.928,1.827,319.2,1.827c54.179,0,98.689,37.966,103.623,86.469C463.66,101.194,493,136.737,493,178.563c0,44.037-32.519,81.108-76.736,92.119.031.955.046,1.91.046,2.872,0,52.713-46.6,95.447-104.078,95.447C282.668,369,255.985,357.7,237.038,339.544Z" transform="translate(1348 290)" fill="#0078e8"/>
+    <ellipse id="Ellipse_9" data-name="Ellipse 9" cx="39.5" cy="40" rx="39.5" ry="40" transform="translate(1380 659)" fill="#0078e8"/>
+    <circle id="Ellipse_10" data-name="Ellipse 10" cx="26.5" cy="26.5" r="26.5" transform="translate(1339 753)" fill="#0078e8"/>
+    <g id="Group_2" data-name="Group 2" transform="translate(1477.632 350.354)">
       <g id="Group_1" data-name="Group 1" transform="translate(0 37.625)">
         <path id="Path_1" data-name="Path 1" d="M1539.17,630.5s29.716-93.238,62.644-109.692,32.47,69.156,69.068,43.875,77.325-145,77.325-145" transform="translate(-1539.17 -419.683)" fill="none" stroke="#93c9fe" stroke-linecap="round" stroke-width="12"/>
       </g>

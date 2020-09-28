@@ -10,6 +10,7 @@ import "../Home/ProjectSection.css";
 
 // Assets
 import ethic_logo from "../../assets/ethic_logo.png";
+import growth from "../../assets/growth-mindset.svg";
 
 function Projects() {
   return (
@@ -41,16 +42,16 @@ function Projects() {
             github_url = "https://github.com/uciblueprint/Ethics-Project-Frontend"
           />
           <ProjectCard 
-            pic = {ethic_logo}
-            title = "Ethic"
-            description = "Ethic provides resources to make it easier to live and shop sustainably. We built them a web crawler that provided a central location for Ethic to easily view and promote sustainability resources."
-            github_url = "https://github.com/uciblueprint/Ethics-Project-Frontend"
+            pic = {growth}
+            title = "Coming Soon"
+            description = "Coming Soon"
+            github_url = "https://github.com/uciblueprint/"
           />
           <ProjectCard 
-            pic = {ethic_logo}
-            title = "Ethic"
-            description = "Ethic provides resources to make it easier to live and shop sustainably. We built them a web crawler that provided a central location for Ethic to easily view and promote sustainability resources."
-            github_url = "https://github.com/uciblueprint/Ethics-Project-Frontend"
+            pic = {growth}
+            title = "Coming Soon"
+            description = "Coming Soon"
+            github_url = "https://github.com/uciblueprint/"
           />
           {/* <ProjectCard />
           <ProjectCard /> */}

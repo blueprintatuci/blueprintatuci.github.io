@@ -28,9 +28,9 @@ export default function BlueprintNavbar() {
             <Nav.Link href='/projects'>
               <p>Projects</p>
             </Nav.Link>
-            <Nav.Link href='/contact'>
+            {/* <Nav.Link href='/contact'>
               <p>Contact</p>
-            </Nav.Link>
+            </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -22,14 +22,8 @@ h1.title {
   color: #000;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1000px) {
   .project-section {
-    padding: 50px 100px 50px 100px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .project-section {
-    padding: 50px 50px 50px 50px;
+    padding: 60px 50px 60px 50px;
   }
 }

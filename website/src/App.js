@@ -7,9 +7,9 @@ import Contact from "./components/Contact/Contact"
 function App() {
   return (
     <div className='App'>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
-        <Route path='/' exact component={Home} />
-        <Route path='/about' exact component={About} />
+      <BrowserRouter>
+        <Route path={process.env.PUBLIC_URL + '/'} exact component={Home} />
+        <Route path={process.env.PUBLIC_URL + '/about'} exact component={About} />
         <Route path='/projects' exact component={Projects} />
         <Route path='/contact' exact component={Contact} />
       </BrowserRouter>

@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa18be7c.chunk.css",
-    "main.js": "/static/js/main.34a690d6.chunk.js",
-    "main.js.map": "/static/js/main.34a690d6.chunk.js.map",
+    "main.css": "/static/css/main.824010ad.chunk.css",
+    "main.js": "/static/js/main.84e0bd05.chunk.js",
+    "main.js.map": "/static/js/main.84e0bd05.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c9a36f42.js",
     "runtime-main.js.map": "/static/js/runtime-main.c9a36f42.js.map",
-    "static/js/2.ef2aa697.chunk.js": "/static/js/2.ef2aa697.chunk.js",
-    "static/js/2.ef2aa697.chunk.js.map": "/static/js/2.ef2aa697.chunk.js.map",
+    "static/js/2.92be97c8.chunk.js": "/static/js/2.92be97c8.chunk.js",
+    "static/js/2.92be97c8.chunk.js.map": "/static/js/2.92be97c8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9f930a4610756c735ab02b5228679689.js": "/precache-manifest.9f930a4610756c735ab02b5228679689.js",
+    "precache-manifest.eb9831e26a5a88039c17bb8ed16e6136.js": "/precache-manifest.eb9831e26a5a88039c17bb8ed16e6136.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.aa18be7c.chunk.css.map": "/static/css/main.aa18be7c.chunk.css.map",
-    "static/js/2.ef2aa697.chunk.js.LICENSE.txt": "/static/js/2.ef2aa697.chunk.js.LICENSE.txt",
+    "static/css/main.824010ad.chunk.css.map": "/static/css/main.824010ad.chunk.css.map",
+    "static/js/2.92be97c8.chunk.js.LICENSE.txt": "/static/js/2.92be97c8.chunk.js.LICENSE.txt",
     "static/media/agnes.png": "/static/media/agnes.b37fe524.png",
+    "static/media/agriculture.svg": "/static/media/agriculture.aa80229c.svg",
     "static/media/aina.png": "/static/media/aina.5951a2ec.png",
     "static/media/areeta.png": "/static/media/areeta.8e10708c.png",
     "static/media/ben.png": "/static/media/ben.38f5d23e.png",
     "static/media/blueprint_logo_only.png": "/static/media/blueprint_logo_only.3a0d79d3.png",
-    "static/media/community-strengthening.svg": "/static/media/community-strengthening.307146ad.svg",
     "static/media/ethic_logo.png": "/static/media/ethic_logo.53882df4.png",
-    "static/media/growth-mindset.svg": "/static/media/growth-mindset.205dd4d0.svg",
+    "static/media/growth.svg": "/static/media/growth.6707bb49.svg",
     "static/media/jeffrey.png": "/static/media/jeffrey.a681e8bd.png",
     "static/media/john.png": "/static/media/john.fb146576.png",
     "static/media/judith.png": "/static/media/judith.b35857b7.png",
@@ -27,12 +27,12 @@
     "static/media/lily.png": "/static/media/lily.7600f90f.png",
     "static/media/linkedin.svg": "/static/media/linkedin.516c3e80.svg",
     "static/media/lynette.png": "/static/media/lynette.0b7af243.png",
-    "static/media/paying-it-forward.svg": "/static/media/paying-it-forward.f16f1412.svg"
+    "static/media/team.svg": "/static/media/team.3e5c10ae.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c9a36f42.js",
-    "static/js/2.ef2aa697.chunk.js",
-    "static/css/main.aa18be7c.chunk.css",
-    "static/js/main.34a690d6.chunk.js"
+    "static/js/2.92be97c8.chunk.js",
+    "static/css/main.824010ad.chunk.css",
+    "static/js/main.84e0bd05.chunk.js"
   ]
 }

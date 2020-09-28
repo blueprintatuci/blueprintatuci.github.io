@@ -45,12 +45,13 @@
   margin-right: 0rem;
 }  
 
-h1 {
-  padding: 0rem 0;
+.blueprint {
   font-size: 1.125rem;
   color: #fff;
   display: inline-block;
   margin-left: 0.5rem;
+  padding: 20px 3px 0px 3px;
+  position: absolute;
 }
 
 .footer-items p {

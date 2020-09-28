@@ -10,7 +10,7 @@ export default function Footer() {
 
             <div class="footer-logo">
                 <img src={blueprint_logo} alt='blueprint-logo' />
-                <h1>blueprint</h1>
+                <div class="blueprint">blueprint</div>
             </div>
             
             <div class="footer-items">

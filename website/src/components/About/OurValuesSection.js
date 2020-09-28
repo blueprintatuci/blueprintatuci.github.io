@@ -1,8 +1,8 @@
 import React from "react";
 import './About.css'
-import team from "../../assets/team.svg";
-import growth from "../../assets/growth.svg";
-import hand from "../../assets/agriculture.svg";
+import community from "../../assets/community-strengthening.svg";
+import growth from "../../assets/growth-mindset.svg";
+import paying from "../../assets/paying-it-forward.svg";
 
 
 export default function OurMissionSection() {
@@ -10,7 +10,7 @@ export default function OurMissionSection() {
     <div className='our-values-section'>
         <h1 className='title'>Our Values</h1>
         <div className='value'>
-            <img className='icon'src={team} alt='team icon' />
+            <img className='icon'src={community} alt='team icon' />
             <div className='value-info'>
                 <h2 className='value-name'>Strengthening our Community</h2>
                 <p className='description'>
@@ -22,7 +22,7 @@ export default function OurMissionSection() {
             </div>
         </div>
         <div className='value'>
-            <img className='icon' src={hand} alt='hand icon' />
+            <img className='icon' src={paying} alt='hand icon' />
             <div className='value-info'>
                 <h2 className='value-name'>Paying It Forward</h2>
                 <p className='description'>

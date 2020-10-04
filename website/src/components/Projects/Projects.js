@@ -3,7 +3,6 @@ import "../../base.css";
 import "./Projects.css";
 import HeaderSection from "../common/HeaderSection";
 import Button from "@material-ui/core/Button";
-import BlueprintNavbar from "../Page/Navbar";
 import Footer from "../Page/Footer";
 import ProjectCard from "../common/ProjectCard";
 import "../Home/ProjectSection.css";
@@ -15,10 +14,9 @@ import growth from "../../assets/growth-mindset.svg";
 function Projects() {
   return (
     <div className='Projects'>
-      <BlueprintNavbar />
-      <HeaderSection 
-        title = "Projects"
-        info = "All of Blueprint’s work is open source because we believe in building technology that makes us more open and connected."
+      <HeaderSection
+        title="Projects"
+        info="All of Blueprint’s work is open source because we believe in building technology that makes us more open and connected."
       />
       <div className='body-section'>
         {/* Uncomment below when we have projects we are working on */}
@@ -35,23 +33,23 @@ function Projects() {
           </Button>
         </div>
         <div className='projects'>
-          <ProjectCard 
-            pic = {ethic_logo}
-            title = "Ethic"
-            description = "Ethic provides resources to make it easier to live and shop sustainably. We built them a web crawler that provided a central location for Ethic to easily view and promote sustainability resources."
-            github_url = "https://github.com/uciblueprint/Ethics-Project-Frontend"
+          <ProjectCard
+            pic={ethic_logo}
+            title="Ethic"
+            description="Ethic provides resources to make it easier to live and shop sustainably. We built them a web crawler that provided a central location for Ethic to easily view and promote sustainability resources."
+            github_url="https://github.com/uciblueprint/Ethics-Project-Frontend"
           />
-          <ProjectCard 
-            pic = {growth}
-            title = "Coming Soon"
-            description = "Coming Soon"
-            github_url = "https://github.com/uciblueprint/"
+          <ProjectCard
+            pic={growth}
+            title="Coming Soon"
+            description="Coming Soon"
+            github_url="https://github.com/uciblueprint/"
           />
-          <ProjectCard 
-            pic = {growth}
-            title = "Coming Soon"
-            description = "Coming Soon"
-            github_url = "https://github.com/uciblueprint/"
+          <ProjectCard
+            pic={growth}
+            title="Coming Soon"
+            description="Coming Soon"
+            github_url="https://github.com/uciblueprint/"
           />
           {/* <ProjectCard />
           <ProjectCard /> */}

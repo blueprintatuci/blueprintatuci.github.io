@@ -3,7 +3,6 @@ import HeaderSection from "../common/HeaderSection";
 import OurMissionSection from "./OurMissionSection"
 import OurValuesSection from "./OurValuesSection"
 import OurTeamSection from "./OurTeamSection"
-import Navbar from "../Page/Navbar";
 import Footer from "../Page/Footer";
 import "../../base.css";
 import './About.css'
@@ -11,7 +10,6 @@ import './About.css'
 function About() {
   return (
     <div className='About'>
-      <Navbar />
       <HeaderSection 
         title = 'About Us'
         info = "Blueprint at UCI is a community-service organization dedicated to making a positive social 

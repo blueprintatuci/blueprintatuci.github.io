@@ -3,16 +3,16 @@ import "./Navbar.css";
 import "../../base.css";
 import blueprint_logo from "../../assets/blueprint_logo_only.png";
 import { Link } from "react-router-dom";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+import { Nav, Navbar } from "react-bootstrap";
+
 //import { makeStyles } from "@material-ui/core/styles";
 
 export default function BlueprintNavbar() {
   return (
-    <div className='navbar'>
-      <Navbar collapseOnSelect bg='dark' expand='lg' variant='dark'>
-        <Navbar.Brand href='#home'>
-          <div className='homeLink navbar'>
+    <div >
+      <Navbar className='blueprint-navbar' collapseOnSelect expand='lg'>
+        <Navbar.Brand>
+          <div className='homeLink '>
             <Link style={{ textDecoration: "none" }} className='home' to='/'>
               <img src={blueprint_logo} alt='blueprint-logo' />
               <h1>blueprint</h1>
@@ -21,16 +21,10 @@ export default function BlueprintNavbar() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
-          <Nav className='mr-auto' className='links'>
-            <Nav.Link href='/about'>
-              <p>About</p>
-            </Nav.Link>
-            <Nav.Link href='/projects'>
-              <p>Projects</p>
-            </Nav.Link>
-            {/* <Nav.Link href='/contact'>
-              <p>Contact</p>
-            </Nav.Link> */}
+          <Nav className='ml-auto links'>
+
+            <Link className="link" to="/about">About</Link>
+            <Link className="link" to="/projects">Projects</Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

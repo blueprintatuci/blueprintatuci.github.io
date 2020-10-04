@@ -5,8 +5,6 @@ import blueprint_logo from "../../assets/blueprint_logo_only.png";
 import { Link } from "react-router-dom";
 import { Nav, Navbar } from "react-bootstrap";
 
-//import { makeStyles } from "@material-ui/core/styles";
-
 export default function BlueprintNavbar() {
   return (
     <div >
@@ -26,23 +24,6 @@ export default function BlueprintNavbar() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-
-      {/* <Navbar className="navbar" expand="lg">
-                <Navbar.Brand >Kenny Ung</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ml-auto nav">
-
-                        <Link to="/">Home</Link>
-                        <Link to="/about">About</Link>
-                        <Link to="/coaching">Training</Link>
-
-                        <Link to="/book"><span className='booking'>Book</span></Link>
-
-
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar> */}
     </div>
   );
 }

@@ -1,9 +1,9 @@
-.home{
+.home {
   display: flex;
   align-items :center
 }
 
-.homeLink img {
+.home img {
   width: 35px;
   height: 35px;
   position: relative;
@@ -12,15 +12,13 @@
   transition: transform 0.8s ease-in-out;
 }
 
-.homeLink img:hover {
+.home img:hover {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }
 
-.home {
-  display: flex;
-}
-.homeLink h1 {
+
+.home h1 {
   margin: 0;
   margin-left: 5px;
   color: #fff;
@@ -39,7 +37,7 @@
 
 .links .link {
   text-decoration: none;
-  padding: 10px;
+  padding: 20px 10px;
   color: #fff;
   font-family: Roboto, Helvetica, sans-serif;
   font-weight: 550;
@@ -51,11 +49,10 @@
 
 .blueprint-navbar{
   z-index: 100;
-  top: 0px;
   position: relative;
   background-color: #0078e8 !important;
-  width: 100%;
   padding: 10px 200px;
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -73,7 +70,12 @@
   flex-grow: unset !important;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
+  }
+
+  .blueprint-navbar{
+    padding: 10px;
+
   }
 }

@@ -12,22 +12,37 @@ export default function BlueprintNavbar() {
     <div >
       <Navbar className='blueprint-navbar' collapseOnSelect expand='lg'>
         <Navbar.Brand>
-          <div className='homeLink '>
-            <Link style={{ textDecoration: "none" }} className='home' to='/'>
-              <img src={blueprint_logo} alt='blueprint-logo' />
-              <h1>blueprint</h1>
-            </Link>
-          </div>
+          <Link style={{ textDecoration: "none" }} className='home' to='/'>
+            <img src={blueprint_logo} alt='blueprint-logo' />
+            <h1>blueprint</h1>
+          </Link>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls='responsive-navbar-nav' />
-        <Navbar.Collapse id='responsive-navbar-nav'>
-          <Nav className='ml-auto links'>
+        <Navbar.Toggle aria-controls='basic-navbar-nav' />
+        <Navbar.Collapse id='basic-navbar-nav'>
+          <Nav className='mr-auto nav links'>
 
             <Link className="link" to="/about">About</Link>
             <Link className="link" to="/projects">Projects</Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+
+      {/* <Navbar className="navbar" expand="lg">
+                <Navbar.Brand >Kenny Ung</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="ml-auto nav">
+
+                        <Link to="/">Home</Link>
+                        <Link to="/about">About</Link>
+                        <Link to="/coaching">Training</Link>
+
+                        <Link to="/book"><span className='booking'>Book</span></Link>
+
+
+                    </Nav>
+                </Navbar.Collapse>
+            </Navbar> */}
     </div>
   );
 }

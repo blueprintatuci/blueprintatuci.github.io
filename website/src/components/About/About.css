@@ -110,10 +110,15 @@ img.icon {
     padding-bottom: 5px !important;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .member-photo {
         height: 0;
         padding-top: 90%;
+    }
+
+    .MuiPaper-root.MuiCard-root.makeStyles-root-1.MuiPaper-elevation1.MuiPaper-rounded {
+        min-width: 20vw;
+        margin: 1vw;
     }
 }
 

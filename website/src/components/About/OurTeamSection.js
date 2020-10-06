@@ -15,6 +15,7 @@ import lynette from "../../assets/member_pictures/lynette.png";
 import kaeley from "../../assets/member_pictures/kaeley.png";
 import yoseph from "../../assets/member_pictures/yoseph.png";
 import chase from "../../assets/member_pictures/chase.png";
+import kevin from "../../assets/member_pictures/kevin.png";
 
 
 export default function OurMissionSection() {
@@ -75,6 +76,12 @@ export default function OurMissionSection() {
               role="Developer"
               image={chase}
               linkedin="https://www.linkedin.com/in/chasecarnaroli/"
+            />
+            <MemberCard 
+              name="Kevin Huynh"
+              role="Developer"
+              image={kevin}
+              linkedin="https://www.linkedin.com/in/khuynh09/"
             />
             <MemberCard 
               name="Agnes Jang"

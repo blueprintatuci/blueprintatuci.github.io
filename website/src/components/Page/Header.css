@@ -3,7 +3,7 @@
   background: #0078e8;
   line-height: 100px;
   text-align: center;
-  display: flex;
+  padding: 150px 10px 0px 10px;
 }
 
 .header .title {
@@ -15,6 +15,15 @@
   font-weight: bold;
   font-size: 50px;
   line-height: 88px;
-
   color: #ffffff;
+}
+
+.btn-link {
+  color: #ffffff;
+}
+
+@media (max-width: 500px) {
+  .header {
+    padding: 50px 10px 0px 10px;
+  }
 }

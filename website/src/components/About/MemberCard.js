@@ -11,12 +11,12 @@ const useStyles = makeStyles(theme => ({
   root: {
     display: 'block',
     width: '12vw',
-    height: '22vw',
+    height: '23vw',
     transitionDuration: '0.3s',
     margin: '.4vw',
     textAlign: 'center'
   },
-
+  
   card: {
     padding: '.5vw'
   },

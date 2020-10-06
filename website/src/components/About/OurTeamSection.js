@@ -12,6 +12,9 @@ import jeffrey from "../../assets/member_pictures/jeffrey.png";
 import judith from "../../assets/member_pictures/judith.png";
 import john from "../../assets/member_pictures/john.png";
 import lynette from "../../assets/member_pictures/lynette.png";
+import kaeley from "../../assets/member_pictures/kaeley.png";
+import yoseph from "../../assets/member_pictures/yoseph.png";
+import chase from "../../assets/member_pictures/chase.png";
 
 
 export default function OurMissionSection() {
@@ -54,6 +57,24 @@ export default function OurMissionSection() {
               role="Public Relations"
               image={lynette}
               linkedin="https://www.linkedin.com/in/lynettenguyen14/"
+            />
+            <MemberCard 
+              name="Kaeley Lenard"
+              role="Design Director"
+              image={kaeley}
+              linkedin="https://www.linkedin.com/in/kaeleylenard/"
+            />
+            <MemberCard 
+              name="Yoseph Ghazal"
+              role="Developer"
+              image={yoseph}
+              linkedin="https://www.linkedin.com/in/yosephghazal/"
+            />
+            <MemberCard 
+              name="Chase Carnaroli"
+              role="Developer"
+              image={chase}
+              linkedin="https://www.linkedin.com/in/chasecarnaroli/"
             />
             <MemberCard 
               name="Agnes Jang"

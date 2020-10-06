@@ -20,7 +20,6 @@ const useStyles = makeStyles(theme => ({
   card: {
     padding: '.5vw'
   },
-
 }));
 
 export default function MemberCard(props) {
@@ -28,7 +27,7 @@ export default function MemberCard(props) {
   return (
     <Card className={classes.root}>
       <CardMedia
-        className={classes.media}
+        className="member-photo"
         image={props.image}
         title="team member photo"
       />

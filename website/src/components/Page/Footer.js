@@ -10,7 +10,7 @@ export default function Footer() {
 
             <div class="footer-logo">
                 <img src={blueprint_logo} alt='blueprint-logo' />
-                <h1>blueprint</h1>
+                <div class="blueprint">blueprint</div>
             </div>
             
             <div class="footer-items">
@@ -23,7 +23,7 @@ export default function Footer() {
                     <a href="/"><li>Home</li></a>
                     <a href="/about"><li>About</li></a>
                     <a href="/projects"><li>Projects</li></a>
-                    <a href="/contact"><li>Contact</li></a>
+                    {/* <a href="/contact"><li>Contact</li></a> */}
                 </ul>
             </div>
             

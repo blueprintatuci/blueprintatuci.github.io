@@ -15,12 +15,16 @@ code {
 }
 
 .body-section {
-    background: #ffffff;
-    font-family: Roboto;
-    font-style: normal;
-    padding-right: 200px;
-    padding-left: 200px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    overflow: hidden;
+  background: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  padding: 60px 200px 60px 200px;
+  overflow: hidden;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .body-section {
+    padding: 50px 50px 50px 50px;
+  }
 }

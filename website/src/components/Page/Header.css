@@ -4,17 +4,23 @@
   line-height: 100px;
   text-align: center;
   display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .header .title {
   text-align: center;
   color: white;
-  margin: auto;
+  margin: 0 auto;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
   line-height: 88px;
-
   color: #ffffff;
+}
+
+.btn-outline-light {
+  max-width: 300px;
+  margin: 0 auto 50px auto;
 }

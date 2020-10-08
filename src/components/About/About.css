@@ -102,6 +102,7 @@ img.icon {
 
 .MuiPaper-root.MuiCard-root.makeStyles-root-1.MuiPaper-elevation1.MuiPaper-rounded {
     min-width: 12vw;
+    min-height: 100%;
     height: auto;
     margin: 1vw;
 }

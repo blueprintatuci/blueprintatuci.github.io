@@ -8,15 +8,6 @@ import Typography from "@material-ui/core/Typography";
 import linkedin_logo from "../../assets/linkedin.svg";
 
 const useStyles = makeStyles(theme => ({
-  root: {
-    display: 'block',
-    width: '12vw',
-    height: '23vw',
-    transitionDuration: '0.3s',
-    margin: '.4vw',
-    textAlign: 'center'
-  },
-  
   card: {
     padding: '.5vw'
   },
@@ -25,7 +16,7 @@ const useStyles = makeStyles(theme => ({
 export default function MemberCard(props) {
   const classes = useStyles();
   return (
-    <Card className={classes.root}>
+    <Card className="member-card">
       <CardMedia
         className="member-photo"
         image={props.image}

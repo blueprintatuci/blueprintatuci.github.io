@@ -5,7 +5,6 @@ import "./ContactForm.css";
 const useStyles = makeStyles((theme) => ({
   root: {
     "& > *": {
-      margin: theme.spacing(1),
       width: "80%",
       margin: "0 auto",
       marginBottom: "20px",

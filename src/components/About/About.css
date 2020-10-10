@@ -100,11 +100,15 @@ img.icon {
     min-width: 50px;
 }
 
-.MuiPaper-root.MuiCard-root.makeStyles-root-1.MuiPaper-elevation1.MuiPaper-rounded {
+.member-card {
+    display: block;
     min-width: 12vw;
     min-height: 100%;
     height: auto;
+    width: 12vw;
     margin: 1vw;
+    text-align: center;
+    transition-duration: 0.3s;
 }
 
 .MuiCardContent-root.makeStyles-card-2 {
@@ -117,7 +121,7 @@ img.icon {
         padding-top: 90%;
     }
 
-    .MuiPaper-root.MuiCard-root.makeStyles-root-1.MuiPaper-elevation1.MuiPaper-rounded {
+    .member-card {
         min-width: 20vw;
         margin: 1vw;
     }

@@ -92,6 +92,7 @@ ul a {
 
 ul a:hover {
   color: #fff;
+  text-decoration: none;
 }
 
 ul li {

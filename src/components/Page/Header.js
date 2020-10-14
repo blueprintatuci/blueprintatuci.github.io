@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { Button } from "react-bootstrap";
-import banner from "../../assets/banner_transparent-01.svg";
+import banner from "../../assets/banner_transparent.svg";
 
 export default function Header() {
   return (

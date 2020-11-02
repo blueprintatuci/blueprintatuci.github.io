@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .header .title {
@@ -27,7 +28,12 @@
 
 .header img {
   max-width: 100%;
-  transform: scale(2.5);
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  max-height: 100%;
+  margin: 0 0 1rem 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .header img {
+    transform: scale(1.5);
+  }
 }

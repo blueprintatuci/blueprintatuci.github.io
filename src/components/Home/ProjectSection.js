@@ -19,19 +19,19 @@ export default function Project() {
           pic = {ethic_logo}
           title = "Ethic"
           description = "Ethic provides resources to make it easier to live and shop sustainably. We built them a web crawler that provided a central location for Ethic to easily view and promote sustainability resources."
-          github_url = "https://github.com/uciblueprint/Ethics-Project-Frontend"
+          github_url = "https://github.com/blueprintatuci/Ethics-Project-Frontend"
         />
         <ProjectCard 
           pic = {growth}
           title = "Coming Soon"
           description = "Coming Soon"
-          github_url = "https://github.com/uciblueprint/"
+          github_url = "https://github.com/blueprintatuci/"
         />
         <ProjectCard 
           pic = {growth}
           title = "Coming Soon"
           description = "Coming Soon"
-          github_url = "https://github.com/uciblueprint/"
+          github_url = "https://github.com/blueprintatuci/"
         />
       </div>
     </div>

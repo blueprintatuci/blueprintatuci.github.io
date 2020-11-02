@@ -14,7 +14,7 @@ export default function Header() {
           At Blueprint, we are dedicated and driven to develop pro bono apps for nonprofits and promote tech for social good, free of charge. 
           Blueprint is a international organization founded in 2012 at UC Berkeley. 
       </p>
-      <a className="about-link" href="/about">Read More...</a>
+      <a className="about-link" href="/#/about">Read More...</a>
     </div>
   );
 }

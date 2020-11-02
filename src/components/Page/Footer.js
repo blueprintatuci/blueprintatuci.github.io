@@ -32,7 +32,7 @@ export default function Footer() {
                 <ul>
                     <a href="http://facebook.com/blueprintatuci"><li><i class="fa fa-facebook fa-lg" aria-hidden="true"></i>Facebook</li></a>
                     <a href="http://instagram.com/blueprintatuci"><li><i class="fa fa-instagram fa-lg" aria-hidden="true"></i>Instagram</li></a>
-                    <a href="http://github.com/uciblueprint"><li><i class="fa fa-github fa-lg" aria-hidden="true"></i>Github</li></a>
+                    <a href="http://github.com/blueprintatuci"><li><i class="fa fa-github fa-lg" aria-hidden="true"></i>Github</li></a>
                     <a href="http://linkedin.com/company/blueprintatuci/"><li><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i>LinkedIn</li></a>
                 </ul>
             </div>

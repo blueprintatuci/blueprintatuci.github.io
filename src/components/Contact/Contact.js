@@ -6,13 +6,12 @@ import Footer from "../Page/Footer";
 function Contact() {
   return (
     <div className='Contact'>
-      <Navbar />
       <HeaderSection
         title='Contact Us'
         info='Have any questions or comments? Interested in working with us? Let us know!'
       />
       <ContactForm />
-
+      
       <Footer />
     </div>
   );

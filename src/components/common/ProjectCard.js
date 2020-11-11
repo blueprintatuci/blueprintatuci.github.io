@@ -12,7 +12,7 @@ import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles({
   root: {
     width: 250,
-    height: 360,
+    height: 500,
     margin: "auto",
     marginBottom: 20,
     transition: "0.3s",
@@ -21,6 +21,12 @@ const useStyles = makeStyles({
       boxShadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)"
     }
   },
+  media: {
+    height: 200,
+    maxHeight: 200,
+    objectFit: 'contain',
+    padding: '5px 5px 0px 5px'
+  }
 });
 
 export default function ProjectCard(props) {
@@ -29,11 +35,9 @@ export default function ProjectCard(props) {
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
+          className={classes.media}
           component='img'
-          alt='Contemplative Reptile'
-          height='200'
           image={props.pic}
-          title='Theta Tau'
         />
         <CardContent>
           <Typography gutterBottom variant='h5' component='h2'>
@@ -46,11 +50,8 @@ export default function ProjectCard(props) {
       </CardActionArea>
       <CardActions>
         <Button size='small' color='primary' href={props.github_url}>
-          See it on Github
+          See it on GitHub
         </Button>
-        {/* <Button size='small' color='primary'>
-          Learn More
-        </Button> */}
       </CardActions>
     </Card>
   );

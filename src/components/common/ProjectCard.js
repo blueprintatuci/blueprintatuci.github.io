@@ -12,7 +12,7 @@ import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles({
   root: {
     width: 250,
-    height: 500 ,
+    height: 500,
     margin: "auto",
     marginBottom: 20,
     transition: "0.3s",
@@ -50,7 +50,7 @@ export default function ProjectCard(props) {
       </CardActionArea>
       <CardActions>
         <Button size='small' color='primary' href={props.github_url}>
-          See it on Github
+          See it on GitHub
         </Button>
       </CardActions>
     </Card>

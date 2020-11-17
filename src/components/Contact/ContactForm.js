@@ -14,8 +14,10 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   btn: {
-    display: "block"
-  }
+    display: "block",
+    backgroundColor: "#0078e8"
+  },
+
 }));
 
 function sendEmail(e) {

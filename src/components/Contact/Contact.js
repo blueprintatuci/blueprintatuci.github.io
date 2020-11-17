@@ -11,7 +11,6 @@ function Contact() {
         info='Have any questions or comments? Interested in working with us? Let us know!'
       />
       <ContactForm />
-      
       <Footer />
     </div>
   );

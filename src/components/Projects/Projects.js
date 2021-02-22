@@ -8,9 +8,10 @@ import ProjectCard from "../common/ProjectCard";
 import "../Home/ProjectSection.css";
 
 // Assets
-import ethic_logo from "../../assets/ethic_logo.png";
-import growth from "../../assets/growth-mindset.svg";
-import raise_logo from "../../assets/raise-foundation-logo.png";
+import ethic_logo from "../../assets/npos/ethic_logo.png";
+import dreams_logo from "../../assets/npos/dreams_logo.png";
+import forest_logo from "../../assets/npos/forest_logo.png";
+import raise_logo from "../../assets/npos/raise-foundation-logo.png";
 
 function Projects() {
   return (
@@ -31,19 +32,18 @@ function Projects() {
             pic={raise_logo}
             title="The Raise Foundation"
             description="The Raise Foundation aims to prevent child abuse through education, advocacy, and family services. We're enabling child-serving professionals to receive training remotely through an online training portal."
-            /* TODO: Change link once we have the repo set up */
-            github_url="https://github.com/blueprintatuci"
+            github_url="https://github.com/blueprintatuci/the-raise-foundation-training-portal"
           />
           <ProjectCard
-            pic={growth}
-            title="Coming Soon"
-            description="Coming Soon"
+            pic={dreams_logo}
+            title="Dreams for Schools"
+            description="Dreams for Schools was established to inspire, create and educate students to be STEM literate with hard and soft skills needed to become the critical thinkers, creative leaders, and technologists of tomorrow. We're building a judging platform for their showcases for programs. "
             github_url="https://github.com/blueprintatuci/"
           />
           <ProjectCard
-            pic={growth}
-            title="Coming Soon"
-            description="Coming Soon"
+            pic={forest_logo}
+            title="Our City Forest"
+            description="Our mission is to cultivate a green and healthy Silicon Valley by engaging community members in the appreciation, protection, growth and maintenance of our urban ecosystem, especially our urban forest. We're creating an online management tool for their volunteers and events."
             github_url="https://github.com/blueprintatuci/"
           />
         </div>

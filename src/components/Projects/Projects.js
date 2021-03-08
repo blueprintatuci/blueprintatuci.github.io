@@ -18,7 +18,7 @@ function Projects() {
     <div className='Projects'>
       <HeaderSection
         title="Projects"
-        info="All of Blueprint’s work is open source because we believe in building technology that makes us more open and connected."
+        info="Majority of Blueprint’s work is open source because we believe in building technology that makes us more open and connected."
       />
       <div className='body-section'>
         <div>
